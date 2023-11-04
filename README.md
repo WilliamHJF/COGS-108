@@ -1,20 +1,32 @@
-This is your group repo for your final project for COGS108.
+# COGS 108 - Final Project Proposal
 
-This repository is private, and is only visible to the course instructors and your group mates; it is not visible to anyone else.
+## Names
+- Jianfan Huo
+- Yunhao Du
+- Yixiao An
+- Yixin Jiang
+- Celine Zhao
 
-Template notebooks for each component are provided. Only work on the notebook prior to its due date. After each submission is due, move onto the next notebook (For example, after the proposal is due, start working in the Data Checkpoint notebook). 
+## Research Question
+Is there a positive relationship between state economic development and vaccine coverage？
 
-This repository will be frozen on the final project due date. No further changes can be made after that time.
+## Dataset(s)
+1. Dataset Name: COVID-19_Vaccinations_in_the_United_States_Jurisdiction.csv
+    - Link to the dataset:https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-Jurisdi/unsk-b7fc (https://data.cdc.gov/Vaccinations/COVID-19-Vaccinations-in-the-United-States-Jurisdi/unsk-b7fc)
+    - Number of observations: 21208
+    - This dataset contains information about the number of people vaccinated with various vaccines in each state. We will use this dataset to analyze vaccination rates in different states.
 
-Your project proposal and final project will be graded based solely on the corresponding project notebooks in this repository.
+2. Dataset Name: GDP and Personal Income
+    - Link to the dataset: https://apps.bea.gov/itable/iTable.cfm?ReqID=70&step=1 (https://apps.bea.gov/itable/iTable.cfm?ReqID=70&step=1)
+    - Number of observations: 59
+    - This dataset contains the sum of each state's per capita income in the second quarter of 2021. We will use this dataset to analyze the state per capita income and vaccination.
 
-Template Jupyter notebooks have been included, with your group number replacing the XXX in the following file names. For each due date, make sure you have a notebook present in this repository by each due date with the following name (where XXX is replaced by your group number):
+3. Dataset Name: List of All 50 US State Abbreviations
+    - Link to the dataset: https://abbreviations.yourdictionary.com/articles/state-abbrev.html (https://abbreviations.yourdictionary.com/articles/state-abbrev.html)
+    - Number of observations: 51
+    - This dataset contains the state abbreviations. And we will use this dataset to rename all the state's name abbreviations.
 
-- `ProjectProposal_groupXXX.ipynb`
-- `DataCheckpoint_groupXXX.ipynb`
-- `EDACheckpoint_groupXXX.ipynb`
-- `FinalProject_groupXXX.ipynb`
-
-This is *your* repo. You are free to manage the repo as you see fit, edit this README, add data files, add scripts, etc. So long as there are the four files above on due dates with the required information, the rest is up to you all. 
-
-Also, you are free and encouraged to share this project after the course and to add it to your portfolio. Just be sure to fork it to your GitHub at the end of the quarter!
+4. Dataset Name: US States - Ranked by Population 2021
+    - Link to the dataset: https://worldpopulationreview.com/states (https://worldpopulationreview.com/states)
+    - Number of observations: 51
+    - This dataset contains the population of each state in America. We will use this dataset to calculate the vaccination rates per state with the vaccinated population of the state.
