@@ -1,4 +1,4 @@
-# COGS 108 - Final Project Proposal
+# COGS 108 - Final Project
 
 ## Names
 - Jianfan Huo
